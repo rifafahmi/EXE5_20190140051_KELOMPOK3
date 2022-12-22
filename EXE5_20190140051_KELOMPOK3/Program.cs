@@ -7,7 +7,7 @@ namespace EXE5_20190140051_KELOMPOK3
         public string name;
         public node next;
 
-        
+
 
     }
     class queue
@@ -26,7 +26,7 @@ namespace EXE5_20190140051_KELOMPOK3
             nm = Console.ReadLine();
             newNode.name = nm;
             newNode.next = null;
-            if (rifa = null)
+            if (rifa == null)
             {
                 rifa = newNode;
                 fahmi = newNode;
@@ -48,6 +48,18 @@ namespace EXE5_20190140051_KELOMPOK3
             if (rifa == null)
                 fahmi = null;
         }
+        public void display()
+        {
+            if (rifa == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            node display;
+            for (display = rifa; display != null; display = display.next)
+                Console.WriteLine(display.name);
+        }
+
     }
-    
+
 }
