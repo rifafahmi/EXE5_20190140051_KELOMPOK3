@@ -36,10 +36,17 @@ namespace EXE5_20190140051_KELOMPOK3
             rifa.next = newNode;
             rifa = newNode;
 
-
-
-
-            
+        }
+        public void delete()
+        {
+            if (rifa == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            rifa = rifa.next;
+            if (rifa == null)
+                fahmi = null;
         }
     }
     
