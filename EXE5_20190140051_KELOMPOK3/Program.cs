@@ -7,6 +7,17 @@ namespace EXE5_20190140051_KELOMPOK3
         public string name;
         public node next;
 
+        
+
+    }
+    class queue
+    {
+        node rifa, fahmi;
+        public queue()
+        {
+            rifa = null;
+            fahmi = null;
+        }
     }
     
 }
