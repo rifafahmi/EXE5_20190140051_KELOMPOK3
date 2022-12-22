@@ -8,5 +8,5 @@ namespace EXE5_20190140051_KELOMPOK3
         public node next;
 
     }
-    }
+    
 }
